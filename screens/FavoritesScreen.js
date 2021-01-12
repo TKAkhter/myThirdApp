@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from "react-native";
 
 const FavoritesScreen = (props) => {
   return (
-    <View styles={styles.screen}>
+    <View style={styles.screen}>
       <Text>The Favorites Screen!</Text>
     </View>
   );
