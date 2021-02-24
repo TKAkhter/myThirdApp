@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  View,
-  Text,
-  FlatList,
-  StyleSheet,
-  TouchableOpacity,
-} from "react-native";
+import { FlatList, StyleSheet } from "react-native";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
 
 import HeaderButton from "../components/HeaderButton";
@@ -43,7 +37,7 @@ const CategoriesScreen = (props) => {
 CategoriesScreen.navigationOptions = (navData) => {
   return {
     headerTitle: "Meal Categories",
-    headerLeft: () => (
+    headerLeft: (
       <HeaderButtons HeaderButtonComponent={HeaderButton}>
         <Item
           title="Menu"
